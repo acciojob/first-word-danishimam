@@ -7,7 +7,9 @@ function firstWord(s) {
 	let result = "";
 	
 	for (let i=0; i<s.length; i++) {
-		if (s[i] === " ") break;
+		if (s[i] === " ") {
+			break;
+		}
 		result += s[i];
 	}
 	return result;
