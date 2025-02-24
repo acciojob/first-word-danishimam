@@ -4,15 +4,18 @@ function firstWord(s) {
 		return s;
 	}
 	
-	let result = "";
+	// let result = "";
 	
-	for (let i=0; i<s.length; i++) {
-		if (s[i] === " ") {
-			break;
-		}
-		result += s[i];
-	}
-	return result;
+	// for (let i=0; i<s.length; i++) {
+	// 	if (s[i] === " ") {
+	// 		break;
+	// 	} 
+	// 	result += s[i];
+	// }
+	// return result;
+
+	let words = s.split(" ");
+	return words[0]
 }
 
 // Do not change the code below  
